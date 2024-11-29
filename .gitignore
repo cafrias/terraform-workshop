@@ -1,0 +1,7 @@
+lambdas/**/dist
+
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+node_modules/
