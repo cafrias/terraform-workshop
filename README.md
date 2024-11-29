@@ -9,9 +9,9 @@ Rubrics:
 ## TODO
 
 Required:
-- [ ] Provision the API Gateway
-- [ ] Create lambda code
-- [ ] Provision lambda 
+- [X] Provision the API Gateway
+- [X] Create lambda code
+- [X] Provision lambda 
 
 ### Nice-to-have
 
