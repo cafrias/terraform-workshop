@@ -2,9 +2,9 @@
   "name": "hello",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.mjs",
+  "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && zip dist/hello.zip index.mjs package.json",
+    "build": "mkdir -p dist && zip dist/hello.zip index.js package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
