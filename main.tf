@@ -130,8 +130,7 @@ data "aws_iam_policy_document" "lambda_logging" {
     "logs:PutLogEvents",
     ]
 
-    resources = ["*"]
-    # resources = ["arn:aws:logs:*:*:*"]
+    resources = ["arn:aws:logs:*:*:*"]
   }
 }
 
