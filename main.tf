@@ -22,24 +22,6 @@ provider "aws" {
 data "aws_caller_identity" "user" {}
 
 #
-# Variables
-#
-// TODO: move to variables file
-variable "region" {
-  default = "us-east-1"
-}
-
-variable profile {
-  default = "default"
-}
-
-variable "hello_package" {
-  default = "lambdas/hello/dist/hello.zip"
-}
-
-variable "environment" {}
-
-#
 # Locals
 #
 locals {
